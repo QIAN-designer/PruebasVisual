@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro - Evento Tecnológico</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Evento Tecnológico para Estudiantes de Ciclos Formativos</h1>
+        <p>Inscríbete y participa en talleres, charlas y actividades innovadoras.</p>
+    </header>
+
+    <!-- FORMULARIO DE INSCRIPCIÓN -->
+    <section class="formulario-contenedor">
+        <h2>Formulario de Inscripción</h2>
+
+        <form action="#" method="post">
+
+            <!-- DATOS PERSONALES -->
+            <article>
+                <h3>Datos Personales</h3>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="30"><br><br>
+
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" placeholder="9 dígitos"><br><br>
+
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input type="date" id="fecha" name="fecha"><br><br>
+            </article>
+
+            <!-- ESPECIALIDAD -->
+            <article>
+                <h3>Especialidad</h3>
+                <label for="especialidad">Selecciona tu especialidad:</label>
+                <select id="especialidad" name="especialidad">
+                    <option>Desarrollo Web</option>
+                    <option>Ciberseguridad</option>
+                    <option>Programación</option>
+                    <option>Robótica</option>
+                    <option>Redes</option>
+                </select>
+            </article>
+
+            <!-- NIVEL DE CONOCIMIENTOS -->
+            <article>
+                <h3>Nivel de Conocimientos</h3>
+
+                <input type="radio" id="basico" name="nivel" value="basico">
+                <label for="basico">Básico</label><br>
+
+                <input type="radio" id="intermedio" name="nivel" value="intermedio">
+                <label for="intermedio">Intermedio</label><br>
+
+                <input type="radio" id="avanzado" name="nivel" value="avanzado">
+                <label for="avanzado">Avanzado</label><br>
+            </article>
+
+            <!-- ACTIVIDADES -->
+            <article>
+                <h3>Actividades</h3>
+
+                <input type="checkbox" id="htmlcss" name="actividad" value="htmlcss">
+                <label for="htmlcss">Taller de HTML/CSS</label><br>
+
+                <input type="checkbox" id="python" name="actividad" value="python" disabled>
+                <label for="python">Introducción a Python (deshabilitado)</label><br>
+
+                <input type="checkbox" id="seguridad" name="actividad" value="seguridad">
+                <label for="seguridad">Seguridad informática para principiantes</label><br>
+
+                <input type="checkbox" id="ia" name="actividad" value="ia">
+                <label for="ia">Cómo funcionan las IA generativas</label><br>
+            </article>
+
+            <!-- COMENTARIOS -->
+            <article>
+                <h3>Comentarios adicionales</h3>
+                <textarea name="comentarios" rows="5" cols="50" placeholder="Comentarios Adicionales"></textarea>
+            </article>
+
+            <!-- BOTONES -->
+            <article>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </article>
+
+        </form>
+    </section>
+
+    <!-- TABLA INFORMATIVA -->
+    <section>
+        <h2>Horario del Evento</h2>
+
+        <table border="1">
+            <caption>Horario del Evento Tecnológico</caption>
+
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Actividad</th>
+                    <th>Sala</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td rowspan="2">09:00 - 10:00</td>
+                    <td>Registro y bienvenida</td>
+                    <td>Hall principal</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Charla inaugural</td>
+                </tr>
+
+                <tr>
+                    <td>10:00 - 11:00</td>
+                    <td>Taller de HTML/CSS</td>
+                    <td>Aula 1</td>
+                </tr>
+
+                <tr>
+                    <td>11:00 - 12:00</td>
+                    <td>Seguridad informática</td>
+                    <td>Aula 2</td>
+                </tr>
+
+                <tr>
+                    <td>12:00 - 13:00</td>
+                    <td>IA Generativa</td>
+                    <td>Aula 3</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>Dirección del evento: Avenida Innovación 123, Centro Tecnológico Municipal</p>
+        <p>Más información en la
+            <a href="https://www.ontinyent.es/va" target="_blank">web oficial del Ayuntamiento</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>

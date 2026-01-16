@@ -1,0 +1,65 @@
+#nombre {
+    background-color: darkseagreen;
+}
+
+#email {
+    background-color: yellow;
+}
+
+label {
+    color: blue;
+}
+
+#titulo_principal {
+    color: purple;
+    text-align: right;
+}
+
+form {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-image: url("/HTML/Ejercicio6-HTML+CSS/img/fondo_formulario.png");
+
+}
+
+#enviar {
+    background-color: blue;
+    color: white;
+}
+
+#borrar {
+    background-color: red;
+    color: white;
+}
+
+table {
+    border: 1px solid greenyellow;
+    margin: 10px;
+}
+
+th {
+    background-color: gray;
+    border: 1px solid greenyellow;
+    color: darkgreen;
+}
+
+td {
+    border: 1px solid greenyellow;
+}
+
+footer {
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+}
+
+#destacada {
+    color: red;
+    font-size: 25px;
+}
+
+#email {
+    border-left-style: dotted;
+    border-right-style: dotted;
+}

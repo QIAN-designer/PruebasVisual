@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="../Curriculum/CSS/curriculum.css">
+</head>
+
+<body>
+    <fieldset class="general_fieldset">
+        <legend>
+            <h1>Curriculum</h1>
+        </legend>
+        <fieldset>
+            <legend>
+                <h2>Información Personal</h2>
+            </legend>
+            <table>
+                <tr>
+                    <th>
+                        <fieldset>
+                            <legend>
+                                <h3>Imagen Personal</h3>
+                            </legend>
+                            <img src="../Curriculum/src/images/peugeot.jpg" width="110" height="120">
+                        </fieldset>
+                    </th>
+                </tr>
+
+            </table>
+            <br>
+            <table border="1">
+                <thead>
+                    <th colspan="2">Datos Personales</th>
+                </thead>
+                <tr>
+                    <th>Campo</th>
+                    <th>Información</th>
+                </tr>
+                <tr>
+                    <td>
+                        <p><strong>Nombre:</strong></p>
+                    </td>
+                    <td>
+                        <p>Pablo</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><strong>Apellidos</strong> </p>
+                    </td>
+                    <td>
+                        <p>Quilis Castelló</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><strong>Fecha de Nacimiento:</strong></p>
+                    </td>
+                    <td>
+                        <p> 11/07/2007</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><strong>Dirección:</strong></p>
+                    </td>
+                    <td>
+                        <p> Calle Falsa 123</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><strong>Conocimientos:</strong></p>
+                    </td>
+                    <td>
+                        <p>Tengo conocimientos sobre</p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><strong>Idiomas:</strong></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                Español (Nativo)
+                            </li>
+                            <li>
+                                Inglés (B2)
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><strong>Vida laboral</strong></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                Practicas en el ayuntamiento de <br>
+                                Ontinyent (90 días)
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <form>
+            <br>
+            <fieldset class="contact_form_fieldset">
+                <legend>
+                    <h3>Formulario de Contacto</h3>
+                </legend>
+                <br>
+                <label for="nombre" type="text">Nombre completo</label>
+                <input placeholder="Tu nombre" required>
+                <br><br>
+                <label for="email" type="email">Correo electrónico</label>
+                <input placeholder="tu@correo.com" required>
+                <br><br>
+                <label for="telefono">Teléfono (opcional)</label>
+                <input type="tel" placeholder="+34 123 456 789" maxlength="9">
+                <br><br>
+                <label>Motivo del contacto</label>
+                <select required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option>Solicitud de información</option>
+                    <option>Soporte técnico</option>
+                    <option>Entrevista</option>
+                    <option>Otro</option>
+                </select>
+                <br><br>
+                <fieldset class="radio">
+                    <legend>¿Cómo prefieres que te contactemos?</legend>
+                    <label>
+                        <input type="radio" checked>
+                        Por email
+                    </label>
+                    <label>
+                        <input type="radio">
+                        Por teléfono
+                    </label>
+                </fieldset>
+                <br>
+                <label>Adjuntar archivo (opcional)</label>
+                <input type="file" accept=".pdf,.jpg,.png,.doc,.docx">
+                <br><br>
+                <label>
+                    <input type="checkbox" required>
+                    Acepto la política de privacidad
+                </label>
+                <br><br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+        </form>
+    </fieldset>
+    </fieldset>
+
+</body>
+
+</html>

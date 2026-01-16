@@ -1,0 +1,81 @@
+/* SELECTOR DE ETIQUETA: estilos generales para labels */
+label {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+/* SELECTOR DE ID: campo nombre */
+#nombre {
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+/* Campo email */
+#email {
+    background-color: yellow;
+    color: black;
+}
+
+/* Textarea comentarios */
+textarea {
+    background-color: #e6e6e6;
+    padding: 10px;
+}
+
+/* SELECTOR DE CLASE: contenedor del formulario */
+.formulario-contenedor {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 20px;
+    width: 60%;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: purple;
+    font-size: 2em;
+}
+
+/* Botón enviar */
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+}
+
+/* Botón borrar */
+input[type="reset"] {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+}
+
+/* Tabla */
+table {
+    border: 2px solid black;
+    text-align: center;
+    width: 70%;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #d3d3d3;
+    font-weight: bold;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}

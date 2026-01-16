@@ -1,0 +1,57 @@
+body{
+    border: 5px dotted black; 
+    padding: 10px;
+}
+
+#Titulo{
+    text-align: right;
+    background-color: rgb(86, 86, 214);
+    color:white; 
+    border-left: 10px solid green;
+}
+
+h1{
+    background-color: rgb(233, 180, 65);
+    text-align: center; 
+    border-top: 5px solid black;
+}
+
+.intro{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(207, 207, 207); 
+}
+
+.subrayado{
+    text-decoration: underline;
+    color:rgb(57, 57, 220);
+}
+
+.roig{
+    color:red;
+    font-size: 20px;
+}
+
+#camaras{
+    background-color: rgb(201, 147, 251);
+}
+
+#lista{
+    color:rgb(179, 222, 179);
+}
+
+#ultim{
+    color:rgb(83, 83, 224);
+    font-size: 20px;
+    border-bottom: 10px double pink;
+}
+
+.titols{
+    background-color: rgb(170, 233, 170);
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#llista{
+    text-align: center;
+}

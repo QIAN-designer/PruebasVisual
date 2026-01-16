@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Evento cultural</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo_principal">Festival de Cultura Digital 2026</h1>
+        <br><br>
+        <p id="descripcion">El Festival de Cultura Digital 2026 es un evento cultural que se celebra en Ontinyent, en la
+            provincia de
+            <span id="destacada">Valencia</span>, España. El festival se celebra en el mes de junio y es un evento que
+            se celebra cada año en
+            Ontinyent, en la provincia de Valencia, España.
+        </p>
+        <nav>
+
+        </nav>
+    </header>
+    <section>
+        <fieldset>
+            <!--Formulario de inscripción-->
+            <legend>
+                <h3>Formulario de inscripción</h3>
+            </legend>
+            <form id="form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+                <br><br>
+                <label id="email" for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                <br><br>
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+                <br><br>
+                <label for="participacion">Participación:</label>
+                <select name="participacion" id="participacion">
+                    <option value="Asistente">Asistente</option>
+                    <option value="Expositor">Expositor</option>
+                    <option value="Artista">Artista</option>
+                </select>
+                <br><br>
+                <!--Área de interés-->
+                <fieldset>
+                    <legend>Área de interés:</legend>
+                    <label for="videojuegos">Videojuegos</label>
+                    <input type="checkbox" id="videojuegos" name="videojuegos">
+                    <br><br>
+                    <label for="musica_electronica">Música Electronica</label>
+                    <input type="checkbox" id="musica_electronica" name="musica_electronica">
+                    <br><br>
+                    <label for="programacion">Programación</label>
+                    <input type="checkbox" id="programacion" name="programacion" disabled>
+                    <br><br>
+                    <label for="arte_digital">Arte Digital</label>
+                    <input type="checkbox" id="arte_digital" name="arte_digital">
+                    <br><br>
+                    <fieldset>
+                        <legend>Nivel de experiencia:</legend>
+                        <label for="participante">Paticipante</label>
+                        <input type="radio" id="participante" name="nivel" value="participante" checked>
+                        <br><br>
+                        <label for="intermedio">Intermedio</label>
+                        <input type="radio" id="intermedio" name="nivel" value="intermedio">
+                        <br><br>
+                        <label for="avanzado">Avanzado</label>
+                        <input type="radio" id="avanzado" name="nivel" value="avanzado">
+                        <br><br>
+                    </fieldset>
+                    <br><br>
+                    <label for="comentarios">Comentarios personales:</label>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10" maxlength="300"></textarea>
+                </fieldset>
+                <br><br>
+                <input type="submit" id="enviar" value="Enviar">
+                <input type="reset" id="borrar" value="Borrar">
+            </form>
+        </fieldset>
+    </section>
+    <section id="horario">
+        <h2>Horario del festival</h2>
+
+        <table>
+            <caption>Horario del Festival</caption>
+
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Hora</th>
+                    <th>Actividad</th>
+                    <th>Espacio</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td rowspan="2">Viernes</td>
+                    <td>10:00</td>
+                    <td>Apertura</td>
+                    <td>Auditorio</td>
+                </tr>
+                <tr>
+                    <td>12:00</td>
+                    <td colspan="2">Taller de arte digital</td>
+                </tr>
+
+                <tr>
+                    <td>Sábado</td>
+                    <td>16:00</td>
+                    <td>Concierto de música electrónica</td>
+                    <td>Escenario principal</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Ayuntamiento de Ontinyent. 46870 Ontinyent (Valencia)</p>
+        <p>Telf. 123456789</p>
+        <p>Email: ayuntamiento@ontinyent.es</p>
+    </section>
+    <footer>
+        <p>&copy; 2026 Festival de Cultura Digital</p>
+    </footer>
+
+
+</body>
+
+</html>
